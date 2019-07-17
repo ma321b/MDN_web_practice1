@@ -1,7 +1,8 @@
 let myHeading = document.querySelector('h1');
 myHeading.textContent = 'Hello world!';               // Changed heading to "Hello World!"
 
-document.querySelector('html').onclick = function() {
+document.querySelector('html').onclick = function() 
+{
     alert('Ouch! Stop poking me!');
 }
 
