@@ -1,46 +1,55 @@
 html {
+ 
     font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
     font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+    background-color: white;
   }
 
-  h1 {
+h1 {
+    font-family: 'Geostar', cursive;
+    font-family: 'Barlow', sans-serif;
+
     font-size: 80px;
     text-align: center;
+    background-color: rgb(109, 3, 109);
+    color: white;
+
+    margin: 0;
+    padding: 20px 0;    
+    
+    text-shadow: 3px 3px 1px rgb(234, 238, 235);
   }
   
-p {
+p  {
+
     font-size: 20px;    
     line-height: 1.5;
     letter-spacing: 1px;
   }
 
-li {
+li{
+ 
     font-size: 22px;    
     line-height: 1.75;
     letter-spacing: 1px;
-    color: rgb(61, 58, 58);
+    color: rgb(131, 125, 125);
   }
 
-html {
-    background-color: white;
-  }
+
 
 body {
+ 
     width: 800px;
     margin: 0 auto;
     background-color: white;
     padding: 0 20px 20px 20px;
-    border: 2px solid black;
+    border: 2px solid white;
   }
 
-h1 {
-    margin: 0;
-    padding: 20px 0;    
-    color: rgb(156, 13, 25);
-    text-shadow: 3px 3px 1px rgb(18, 212, 83);
-  }
 
-img {           /* centers the image */
+
+img { 
+           /* centers the image */
     display: block;
     margin: 0 auto;
   }
