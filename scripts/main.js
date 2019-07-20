@@ -1,5 +1,5 @@
 let myHeading = document.querySelector('h1');
-myHeading.textContent = 'Hello world!';               // Changed heading to "Hello World!"
+        
 
 /*
 document.querySelector('html').onclick = function() 
@@ -30,7 +30,7 @@ function setUserName()
 {
   let myName = prompt('Please enter your name (press OK to continue) ');
   localStorage.setItem('name', myName);
-  myHeading.textContent = 'Ruby on Rails is awesome, ' + myName;
+  myHeading.textContent = 'Ruby on Rails is awesome (by ' + myName + ')' ;
 }
 
 if(!localStorage.getItem('name'))
@@ -40,7 +40,7 @@ if(!localStorage.getItem('name'))
 else
 {
   let storedName = localStorage.getItem('name');
-  myHeading.textContent = 'Ruby on Rails is awesome, ' + storedName;
+  myHeading.textContent = 'Ruby on Rails is awesome (by ' + storedName + ')';
 }
 
 myButton.onclick = function()

@@ -11,13 +11,14 @@ h1 {
 
     font-size: 80px;
     text-align: center;
-    background-color: rgb(109, 3, 109);
+    background-color: #8B0000;
     color: white;
+    border-radius: 12px;
 
     margin: 0;
     padding: 20px 0;    
     
-    text-shadow: 3px 3px 1px rgb(234, 238, 235);
+    /* text-shadow: 3px 3px 1px rgb(234, 238, 235); */
   }
   
 p  {
@@ -39,7 +40,7 @@ li{
 
 body {
  
-    width: 800px;
+    width: 1400px;
     margin: 0 auto;
     background-color: white;
     padding: 0 20px 20px 20px;
@@ -52,4 +53,25 @@ img {
            /* centers the image */
     display: block;
     margin: 0 auto;
+  }
+
+button {
+
+    background-color: white; /* Green */
+    border: 2px solid #8B0000;
+    border-radius: 12px;  /* rounded borders */
+    color: black;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px
+
+    -webkit-transition-duration: 0.4s; /* Button animation duration */
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #8B0000; /* Change button to these setting when mouse hovered over it */
+    color: white;
   }
