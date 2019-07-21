@@ -44,7 +44,7 @@ li{
 
 body {
  
-    width: 1400px;
+    width: 1500px;
     margin: 0 auto;
     background-color: white;
     padding: 0 20px 20px 20px;
@@ -85,4 +85,17 @@ h2 {
   font-family: 'Darker Grotesque', sans-serif;
   color: rgb(20, 31, 31);
 }
+
+table, td, th {
+  border: 2px solid #A9A9A9;
+  padding: 15px;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;   /* Multiple borders collapsed into a single one */
+  width: 100%;  /*Whole table spans across entire page */
+
+}
+
 
