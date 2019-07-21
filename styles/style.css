@@ -26,14 +26,18 @@ p  {
     font-size: 20px;    
     line-height: 1.5;
     letter-spacing: 1px;
+    color: rgb(51, 77, 77);
+    font-family: 'Darker Grotesque', sans-serif;
   }
+  
 
 li{
  
     font-size: 22px;    
     line-height: 1.75;
     letter-spacing: 1px;
-    color: rgb(131, 125, 125);
+    color: rgb(51, 77, 77);
+    font-family: 'Darker Grotesque', sans-serif;
   }
 
 
@@ -61,7 +65,7 @@ button {
     border: 2px solid #8B0000;
     border-radius: 12px;  /* rounded borders */
     color: black;
-    padding: 15px 50px;
+    padding: 10px 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -75,3 +79,10 @@ button:hover {
     background-color: #8B0000; /* Change button to these setting when mouse hovered over it */
     color: white;
   }
+
+h2 {
+  font-size: 35px;
+  font-family: 'Darker Grotesque', sans-serif;
+  color: rgb(20, 31, 31);
+}
+
