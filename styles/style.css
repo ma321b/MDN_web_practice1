@@ -20,13 +20,11 @@ h1 {
     /* text-shadow: 3px 3px 1px rgb(234, 238, 235); */
   }
 
-.darker-grotesque {
-  font-family: 'Darker Grotesque', sans-serif
-}
+
   
 p  {
 
-    font-size: 20px;    
+    font-size: 25px;    
     line-height: 1.5;
     letter-spacing: 1px;
     color: rgb(51, 77, 77);
@@ -36,11 +34,12 @@ p  {
 
 li{
  
-    font-size: 20px;    
+    font-size: 25px;    
     line-height: 1.75;
     letter-spacing: 1px;
     color: rgb(51, 77, 77);
     font-family: 'Darker Grotesque', sans-serif;
+    
   }
 
 
@@ -68,11 +67,11 @@ button {
     border: 2px solid rgb(0, 204, 204);
     border-radius: 12px;  /* rounded borders */
     color: black;
-    padding: 10px 30px;
+    padding: 20px 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px
+    font-size: 20px;  
 
     -webkit-transition-duration: 0.4s; /* Button animation duration */
     transition-duration: 0.4s;
@@ -85,9 +84,10 @@ button:hover {
   }
 
 h2 {
-  font-size: 35px;
+  font-size: 40px;
   font-family: 'Darker Grotesque', sans-serif;
   color: rgb(20, 31, 31);
+  text-decoration: underline;
 }
 
 table, td, th {
@@ -106,17 +106,35 @@ a {
   color: rgb(0, 230, 230);
 }
 
+
+
+hr {
+  color: rgb(204, 221, 255);
+}
+
+.darker-grotesque {
+  font-family: 'Darker Grotesque', sans-serif
+}
+
 .publish-time {      /*This class is selected here */
   color:gray;
   font-weight: bold;
   text-decoration: underline;
-  text-align: right;
+  text-align: left;
 }
 
+.center-align {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italicize {
+  font-style: italic;
+}
 #rb-icon {
   height: 600px;
-}
-
-hr {
-  color: rgb(204, 221, 255);
+  width: 50%;
 }
