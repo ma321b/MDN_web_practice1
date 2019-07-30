@@ -18,7 +18,21 @@ h1 {
     /* text-shadow: 3px 3px 1px rgb(234, 238, 235); */
   }
 
+/* header {
+  color: white;
+  background-color: rgb(0, 204, 204);
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
 
+  }
+
+#head {
+  color: white;
+}
+
+*/
   
 p  {
 
@@ -38,6 +52,8 @@ li{
     font-family: 'Darker Grotesque', sans-serif;
     
   }
+
+
 
 
 
@@ -100,7 +116,19 @@ table {
 }
 
 a {
+  color: rgb(0, 128, 128);
+  font-weight: normal;
+  text-decoration: none;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+a:hover {
+
   color: rgb(0, 230, 230);
+  font-weight: bold;
+  text-decoration: underline;
+  
 }
 
 
@@ -150,4 +178,5 @@ hr {
   position: relative;
   right: 30px;
 }
+
 
