@@ -1,0 +1,51 @@
+html {
+    background-color: black;
+    font-family: 'Fira Code', monospace;
+}
+
+
+.form1 { 
+    position: relative;
+    margin: 0 auto;
+    font-family: 'Fira Code', monospace;
+    color: white;
+    background-color: black;
+    width: 900px;
+    border: solid white;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 60px;
+    top: 250px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(102, 255, 51);
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Fira Code', monospace;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    position: relative;
+    top: 150px;
+    
+}
+
+#username, #pw {
+    background-color: black;
+    color: rgb(102, 255, 51);
+    font-family: 'Fira Code', monospace;
+    height: 30px;
+    font-size: 20px;
+    border: solid white;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
