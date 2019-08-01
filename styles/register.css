@@ -18,7 +18,7 @@ html {
     font-weight: bold;
     text-decoration: none;
     padding: 60px;
-    top: 250px;
+    top: 200px;
 }
 
 h1 {
@@ -32,9 +32,9 @@ h2 {
     font-family: 'Fira Code', monospace;
     color: white;
     text-align: center;
-    font-size: 45px;
+    font-size: 35px;
     position: relative;
-    top: 150px;
+    top: 100px;
     
 }
 
@@ -51,7 +51,7 @@ a {
     font-family: 'Fira Code', monospace;
 }
 
-#username, #pw {
+#username, #pw, #mail, #fName, #lName {
     background-color: black;
     color: rgb(102, 255, 51);
     font-family: 'Fira Code', monospace;
@@ -62,20 +62,5 @@ a {
     font-weight: bold;
 }
 
-#sub {
-    color: white;
-    background-color: black;
-    font-family: 'Fira Code', monospace;
-    
-    font-size: 20px;
-    border: 3px solid white;
-    border-radius: 12px;
-    -webkit-transition-duration: 0.2s; /* Button animation duration */
-    transition-duration: 0.2s;
-}
 
-#sub:hover {
-    color:black;
-    background-color: white;
-}
 
