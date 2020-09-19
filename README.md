@@ -1,3 +1,3 @@
-# MDN_web_practice1
+# Practice Website
 
-Making my first website from scratch, applying the knowledge learnt from The Odin Project ( https://www.theodinproject.com/ ). 
+This is a static personal website which I built to learn HTML and CSS
